@@ -1,0 +1,25 @@
+
+…
+java:S1854"BRemove this useless assignment to local variable "dumplingsCount".(˜ß„8Í§¶‡ï1J$1745fcf1-71c2-452b-ab0e-e6f2d3d5eafe
+‹
+java:S1854"CRemove this useless assignment to local variable "ravenBonesCount".(Ş¥Ë™øÿÿÿÿ8ª¿¶‡ï1J$80ab7c69-3572-450d-9706-efd6ec69af3f
+†
+java:S1854"CRemove this useless assignment to local variable "ghoulTearsCount".(ëé¼Ä8˜â¶‡ï1J$9514ea6a-09a4-4536-a0cc-7b732c28f8ef
+‰
+java:S1854"ARemove this useless assignment to local variable "toadEyesCount".(’ÿÇşÿÿÿÿ8°ƒ·‡ï1J$2b2227dd-7b9d-40a7-99e8-96fa1262ef0a
+r	java:S106"+Replace this use of System.out by a logger.(é„Ó…ûÿÿÿÿ8şÍ±‡ï1J$0adb55c6-3f3d-4b24-b902-ecc2b955ba55
+u
+java:S1135"2Complete the task associated to this TODO comment.(İÇüá8¦™±‡ï1J$69a81914-67fa-4c12-a88d-708673f8b3b2
+z
+java:S1481"2Remove this unused "toadEyesCount" local variable.(’ÿÇşÿÿÿÿ8Åàì‹ï1J$c74727f6-64b1-4c87-b961-955ace5b38a6
+m	java:S106"+Replace this use of System.out by a logger.(™ÊÀ8şÍ±‡ï1J$966168a2-96b5-4451-8ef8-5fc5f37f883c
+w
+java:S1481"4Remove this unused "ghoulTearsCount" local variable.(ëé¼Ä8”í‹ï1J$0e958441-244f-4285-90ed-db469af8b4e2
+r	java:S106"+Replace this use of System.out by a logger.(ŞØÕıÿÿÿÿÿ8ûÕ·‡ï1J$8a00d66b-c421-4263-a16f-0c4c6b86facc
+|
+java:S1481"4Remove this unused "ravenBonesCount" local variable.(Ş¥Ë™øÿÿÿÿ8Œ—í‹ï1J$d6688696-4985-4a6a-aae8-31259f812cc8
+m	java:S106"+Replace this use of System.out by a logger.(¦¬íû8ì©¸‡ï1J$1babf0f1-8af6-497d-bed3-922573b2ad45
+v
+java:S1481"3Remove this unused "dumplingsCount" local variable.(˜ß„8Ê®í‹ï1J$4f400412-9fb4-45d3-8b3e-be4bd218d95e
+u
+java:S1135"2Complete the task associated to this TODO comment.(ÚŞ8«™±‡ï1J$dd4080b2-a9fd-4cad-bf17-c57f4dc89dfc
