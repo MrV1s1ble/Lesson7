@@ -18,6 +18,7 @@ public class Main {
         System.out.println("Введите количество пельмешек: ");
         int dumplingsCount = scan.nextInt();
 
+        boolean isPosibletoCook = false;
 
         //Рецепты Эликсиров:
         // 1. 3 Жабьих глаза + 1 кость ворона - Эликсир зоркости
@@ -26,12 +27,26 @@ public class Main {
         // 4. 5 слез вурдалака + 10 пельменей + 4 жабьих глаза + 3 кости ворона - Запретный эликсир
 
         //todo дописать логику программы сюда
-        for (toadEyesCount; toadEyesCount > 0; toadEyesCount=+3)
 
-        if (toadEyesCount / 3 > 0 && ravenBonesCount / 1 > 0) {
-            System.out.println("Вы можете приготовить: " + toadEyesCount / 3 + " шт эликсиров зоркости.");
-        } else {
-            System.out.println("Недостаточно ингредиентов");
+        if (toadEyesCount >= 3 && ravenBonesCount >= 1) {
+            System.out.println("Вы можете приготовить эликсир зоркости.");
+            isPosibletoCook = true;
         }
+        if (dumplingsCount >= 4 && ravenBonesCount >= 2) {
+            System.out.println("Вы можете приготовить эликсир стойкости.");
+            isPosibletoCook = true;
+        }
+        if (ghoulTearsCount >= 7 && dumplingsCount >= 1 && toadEyesCount >= 2) {
+            System.out.println("Вы можете приготовить эликсир скрытности.");
+            isPosibletoCook = true;
+        }
+        if (ghoulTearsCount >= 5 && ravenBonesCount >= 3 && dumplingsCount >= 10 && toadEyesCount >= 4) {
+            System.out.println("Вы можете приготовить эликсир зоркости.");
+            isPosibletoCook = true;
+        }
+        if (!isPosibletoCook){
+            System.out.println("Не хватает ингрединтов.");
+        }
+
     }
 }
